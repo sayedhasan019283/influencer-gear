@@ -110,6 +110,7 @@ header{
 
 .fix-Popular-Collection-title{
     text-align: center;
+    font-size: 30;
 }
 .fix-Popular-Collection{
     display: grid;
@@ -125,24 +126,30 @@ header{
 .rating-fix .fa-star{
     color: gold;
 }
-/*---------- 
-footer part
----------- */
-.fix-footer{
-    background-color: rgb(5, 1, 43);
-    height: 220px;
-    width: 100%;
-    margin-bottom: 0px;
-    
+.see-more-button{
+    text-decoration: none;
+    color: tomato;
 }
-.footer-info{
-    color: white;
-    text-align: center;
-    padding: 15px;
+.see-more-fix{
+    align-items: center;
+    margin-left: 885px;
+    margin-top: 40px;
 }
 
-.footer-icon{
-    margin-top: 0px;
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: #030333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
-  text-align: center;
+}
+.footer-info .writing{
+    text-align: center;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 25px;
 }
