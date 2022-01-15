@@ -12,7 +12,7 @@ body{
 }
 header{
     display:grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 55% 45%;
     padding-top:50px;
 }
 .logo-name h3{
@@ -98,7 +98,7 @@ header{
     display: flex;
     align-items: center;
     font-size: 10px;
-    margin-top: 0px;
+   margin-bottom: -12px;
    width: 80px;
    height: 10px;
    margin-left: 10px;
@@ -166,9 +166,11 @@ footer{
 }
 .footer-info .writing{
     text-align: center;
+    margin-top: -15px;
 }
 .icons{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-column-gap: 25px;
+    margin-top: 25px;
 }
