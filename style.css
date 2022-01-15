@@ -60,13 +60,32 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
-.Preebook-button{
+.Preebook-button a{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    /* background-image: linear-gradient(orange, tomato);
     padding: 8px 30px;
     border-radius: 15px;
     color: wheat;
-    font-weight: 700;
+    font-weight: 700; */
+}
+.fix-preebook{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(orange, tomato);
+    text-align: center;
+   
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+}
+.material-icon-fix{
+   margin-left: 30px;
+   color: wheat;
+  
+}
+.material-icons{
+    margin-top: 8px;
+    margin-left: 10px;
 }
 /* logo section */
 .fix-logo-sec{
