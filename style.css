@@ -284,7 +284,7 @@ header{
 .right-camera-mob{
     display: none;
 }
-@media (max-width:400px) {
+@media (max-width:420px) {
     .nav-section{
         width: 95%;
         
