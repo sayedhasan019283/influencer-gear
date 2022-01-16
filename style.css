@@ -402,3 +402,122 @@ header{
         
     }
 }
+/* tablet responsibe */
+@media only screen and (min-width:421px) and (max-width:768px) {
+    .nav-section{
+        width: 95%;
+        
+    }
+    header{
+        display: grid;
+        grid-template-columns:10% 80% 10%;
+        justify-content: space-between;
+    }
+    .navbar{
+        display:none;
+    }
+    .cart-img{
+        display:block;
+    }
+    .cart-img img{
+        width:80%;
+
+    }
+    .bars-menu{
+        display: block;
+        
+    }
+    .bars-menu i{
+        font-size: 20px;
+    }
+    .logo-name h3{
+        font-weight: 700;
+        font-size:16px;
+        text-align: center;
+    }
+    .camera{
+        display:flex;
+        align-items:left;
+        padding-top:50px;
+    }
+    .right-camera-mob{
+        display: inline-block;
+    }
+    .right-camera{
+        display:none;
+    }
+    .cam-img{
+        position: absolute;
+        width: 202px;
+        height: 190px;
+        left: 85px;
+        top: 146px;
+        
+    }
+    .circle-img img{
+        position: absolute;
+        width: 257px;
+        height: 257px;
+        left: 63px;
+        top: 95px;
+        margin-left: 0px;
+    }
+    .circle-img {
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+        opacity: 0.75;
+    }
+    .left-influencer{
+        position: absolute;
+        width: 350px;
+        height: 222px;
+        text-align: center;
+        top: 352px;
+        margin-right: 0px;
+    }
+    .left-influencer h2{
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 42px;   
+    }
+    .logo-svg{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        padding: 40px 0px;
+    }
+    .logos-section{
+        width: 550px;
+        
+    }
+    .logo{
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    .collection-container{
+        width:95%;
+        margin:auto;
+    }
+    .products{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .influencer-desc{
+        width: 95%;
+        margin: auto;
+        display:grid;
+        grid-template-columns: 100%;
+        margin-top:53px;
+        margin-bottom:53px;
+    }
+    .fade-line {
+        height: 1px;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        background-image: -webkit-linear-gradient(left , white 2%, #c9c9c9 50%, white 98%);
+        
+    }
+}
