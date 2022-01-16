@@ -448,32 +448,32 @@ header{
     }
     .cam-img{
         position: absolute;
-        width: 202px;
-        height: 190px;
+        width: 302px;
+        height: 290px;
         left: 85px;
         top: 146px;
         
     }
     .circle-img img{
         position: absolute;
-        width: 257px;
-        height: 257px;
+        width: 357px;
+        height: 357px;
         left: 63px;
         top: 95px;
         margin-left: 0px;
     }
     .circle-img {
-        width: 350px;
-        height: 350px;
+        width: 450px;
+        height: 450px;
         margin-left: 0px;
         opacity: 0.75;
     }
     .left-influencer{
         position: absolute;
-        width: 350px;
-        height: 222px;
+        width: 450px;
+        height: 322px;
         text-align: center;
-        top: 352px;
+        top: 452px;
         margin-right: 0px;
     }
     .left-influencer h2{
@@ -489,7 +489,7 @@ header{
         padding: 40px 0px;
     }
     .logos-section{
-        width: 550px;
+        width: 650px;
         
     }
     .logo{
@@ -514,7 +514,7 @@ header{
     }
     .fade-line {
         height: 1px;
-        width: 300px;
+        width: 400px;
         margin: 0 auto;
         margin-bottom: 5px;
         background-image: -webkit-linear-gradient(left , white 2%, #c9c9c9 50%, white 98%);
